@@ -1,0 +1,44 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#5743A047"
+    android:padding="40px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR"
+        android:layout_margin="10px"/>
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="+"
+       android:layout_margin="20px"
+       android:background="#5C039BE5"
+      android:id="@+id/add"
+       tools:ignore="InvalidId" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:background="#5C039BE5"
+        android:layout_margin="20px"
+        android:id="@+id/sub"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:background="#5C039BE5"
+        android:layout_margin="20px"
+        android:id="@+id/mul"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:background="#5C039BE5"
+        android:layout_margin="20px"
+        android:id="@+id/div"/>
+
+</LinearLayout>
